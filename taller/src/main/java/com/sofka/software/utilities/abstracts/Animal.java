@@ -1,8 +1,12 @@
 package com.sofka.software.utilities.abstracts;
-import java.util.logging.Logger;
+
+/**
+ * clase padre animal , tiene metodo comun en los animales
+ */
 public class Animal {
-    Logger logger = Logger.getLogger("logger");
+    /**
+     * metodo caminar, accion para los animales
+     */
     public void caminar(){
-        logger.info("ahora caminamos");
     }
 }

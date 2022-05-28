@@ -9,7 +9,7 @@ public class Message {
         return new Message();
     }
 
-    public void DogAction() {
+    public void dogAction() {
         logger.info("guau");
     }
 
